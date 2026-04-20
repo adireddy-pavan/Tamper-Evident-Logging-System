@@ -1,0 +1,75 @@
+[
+  {
+    "sequence_id": 1,
+    "timestamp": "2026-04-18T09:09:51.549967+00:00",
+    "event_type": "AUTH",
+    "description": "Failed login attempt for user 'pavan' (wrong password)",
+    "metadata": {},
+    "prev_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "entry_hash": "64850d190fc0254230c0d1d1de024f159293130bda0bf0aac9b49b0fd1cfa718"
+  },
+  {
+    "sequence_id": 2,
+    "timestamp": "2026-04-18T09:10:24.025981+00:00",
+    "event_type": "TRANSACTION",
+    "description": "2000 transferred from account 1023 to 4587",
+    "metadata": {},
+    "prev_hash": "64850d190fc0254230c0d1d1de024f159293130bda0bf0aac9b49b0fd1cfa718",
+    "entry_hash": "d2c45ab8d89274127e4fecfb8b1b653093c09b5e77d19edc08f42b492cf9da45"
+  },
+
+  {
+    "sequence_id": 4,
+    "timestamp": "2026-04-18T09:10:58.607483+00:00",
+    "event_type": "SYSTEM",
+    "description": "Firewall rule updated to block port 22",
+    "metadata": {},
+    "prev_hash": "4a53499067632f66379a5551abe04b27b2f34623a8235bc579b7ec2db55b829b",
+    "entry_hash": "f9e29eff32375ca0b16e56c61672f1e1ec72830e03ac60be6523bcb42bf9b363"
+  },
+  {
+    "sequence_id": 5,
+    "timestamp": "2026-04-18T09:11:14.663171+00:00",
+    "event_type": "AUTH",
+    "description": "Failed login attempt for user 'pavan' (wrong password)",
+    "metadata": {},
+    "prev_hash": "f9e29eff32375ca0b16e56c61672f1e1ec72830e03ac60be6523bcb42bf9b363",
+    "entry_hash": "db67d163d89928a4d91d290d5bc4c4e99efbfe2408d954bed9193a8df9a34589"
+  },
+  {
+    "sequence_id": 6,
+    "timestamp": "2026-04-18T09:11:39.166008+00:00",
+    "event_type": "MALWARE",
+    "description": "Suspicious executable file detected in downloads folder",
+    "metadata": {},
+    "prev_hash": "db67d163d89928a4d91d290d5bc4c4e99efbfe2408d954bed9193a8df9a34589",
+    "entry_hash": "b5e5e3b24dacbd5a9b463105b2cae158de274c868aca0c3cdb1cfdbcae83b405"
+  },
+  {
+    "sequence_id": 7,
+    "timestamp": "2026-04-18T09:12:30.586253+00:00",
+    "event_type": "Auth",
+    "description": "A user named johnny logged in",
+    "metadata": {},
+    "prev_hash": "b5e5e3b24dacbd5a9b463105b2cae158de274c868aca0c3cdb1cfdbcae83b405",
+    "entry_hash": "3b23f5a4f422ce0bfbba92396bc99fbaafe778ed668940f3fd07bd9bf1ed4be7"
+  },
+  {
+    "sequence_id": 8,
+    "timestamp": "2026-04-18T09:18:06.480982+00:00",
+    "event_type": "Transaction",
+    "description": "amount of 500 has been transfered",
+    "metadata": {},
+    "prev_hash": "3b23f5a4f422ce0bfbba92396bc99fbaafe778ed668940f3fd07bd9bf1ed4be7",
+    "entry_hash": "cafcd3df9fe7c4878cb92475ce8886b553ecdd4b812b538728008db9947e6cb7"
+  },
+  {
+    "sequence_id": 9,
+    "timestamp": "2026-04-18T09:26:44.411779+00:00",
+    "event_type": "Auth",
+    "description": "a new user named kalyan has been logged in",
+    "metadata": {},
+    "prev_hash": "cafcd3df9fe7c4878cb92475ce8886b553ecdd4b812b538728008db9947e6cb7",
+    "entry_hash": "c6e51d3369b18c5f24a430b43cd18e2cb24b28e1f41b222fc156a199b2fe1b5f"
+  }
+]
